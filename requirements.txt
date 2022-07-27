@@ -144,17 +144,3 @@ webencodings==0.5.1
 widgetsnbextension==3.6.1
 wordcloud==1.8.2.2
 zipp==3.6.0
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
