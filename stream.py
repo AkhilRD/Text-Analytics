@@ -9,6 +9,7 @@ from nltk.tokenize import sent_tokenize
 import pandas as pd
 import numpy as np
 import nltk
+nltk.download('stopwords')
 import unicodedata
 from collections import Counter
 from nltk.stem import WordNetLemmatizer
