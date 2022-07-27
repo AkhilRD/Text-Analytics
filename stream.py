@@ -10,6 +10,7 @@ import pandas as pd
 import numpy as np
 import nltk
 nltk.download('stopwords')
+nltk.download('wordnet')
 import unicodedata
 from collections import Counter
 from nltk.stem import WordNetLemmatizer
