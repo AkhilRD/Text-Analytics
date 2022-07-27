@@ -1,16 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-# %load streamlit_main_v1.py
-#!/usr/bin/env python
-
-# In[ ]:
-
-
-
 import streamlit as st
 from nltk.tokenize import word_tokenize
 from wordcloud import WordCloud, STOPWORDS
@@ -22,7 +9,6 @@ from nltk.tokenize import sent_tokenize
 import pandas as pd
 import numpy as np
 import nltk
-import gensim
 import unicodedata
 from collections import Counter
 from nltk.stem import WordNetLemmatizer
@@ -40,7 +26,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from nltk import word_tokenize, pos_tag,pos_tag_sents
-from gensim.models import Word2Vec
 from sklearn.decomposition import TruncatedSVD as svd
 from sklearn.pipeline import Pipeline
 from sklearn.base import TransformerMixin 
