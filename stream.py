@@ -29,7 +29,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from nltk import word_tokenize, pos_tag,pos_tag_sents
-from gensim.models import Word2Vec
 from sklearn.decomposition import TruncatedSVD as svd
 from sklearn.pipeline import Pipeline
 from sklearn.base import TransformerMixin 
