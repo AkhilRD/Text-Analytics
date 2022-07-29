@@ -9,7 +9,9 @@ from nltk.tokenize import sent_tokenize
 import pandas as pd
 import numpy as np
 import nltk
-import gensim
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 import unicodedata
 from collections import Counter
 from nltk.stem import WordNetLemmatizer
